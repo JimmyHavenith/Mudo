@@ -43,11 +43,11 @@ class ViewsController extends Controller
        if($existing_view) {
           $existing_view->delete();
           Flash::overlay('Le film a bien été supprimé de ta markview !', 'Film supprimé');
-          return redirect('/markview/');
+          return redirect()->back();
        }else{
           $view->save();
           Flash::overlay('Le film a bien été ajouté à ta markview !', 'Film ajouté');
-          return redirect('/markview/');
+          return redirect()->back();
        }
      }
 }

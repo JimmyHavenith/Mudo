@@ -15,7 +15,7 @@
             <div class="proposal-image">
               @if($value['poster_path'] == true)
               <a href="#" title="En savoir plus sur {{ $value['title'] }}">
-                <img src="https://image.tmdb.org/t/p/w780/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title']}}" title="{{ $value['title'] }}"/>
+                <img src="https://image.tmdb.org/t/p/w185/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title']}}" title="{{ $value['title'] }}"/>
               </a>
               @else
               <img src="../img/not-available.png" alt="Affiche du film non disponible" />

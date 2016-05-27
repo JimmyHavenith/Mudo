@@ -1,0 +1,53 @@
+/* PAGE CONNEXION / INSCRIPTION */
+
+.connect-bg{
+  width: 100%;
+  position: relative;
+  background-image: url('../img/jungle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register-bg{
+  width: 100%;
+  position: relative;
+  background-image: url('../img/register.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.formulaire{
+  background-color: $color-form-login;
+  border-radius: 5px;
+  h2{
+    color: $color-blue;
+    font-family: $font-title;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .register div{
+    margin-bottom: 15px;
+  }
+  button{
+    background-color: $color-blue-button;
+    border: medium none;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  button:hover, button:focus, button:active{
+    background-color: $color-blue-dark !important;
+  }
+  .return-home{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .not-register {
+      margin-top: 25px;
+  }
+}

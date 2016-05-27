@@ -1,0 +1,607 @@
+/* ADAPTABILITÉ DU SITE */
+
+@media only screen and (max-width: 1280px) {
+  .banner-click .prev, .banner-click .next{
+    top: 175px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .proposal li {
+    width: 144px;
+  }
+  .proposal-image {
+    height: 192px;
+  }
+  .movies-result .proposal-image {
+    height: 197px;
+  }
+  .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 228px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    padding-left: 40px;
+  }
+  .movie-galery, .movie-galery-button {
+    display: none;
+  }
+  .only-auth {
+    right: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .features.col-md-3.col-sm-6 {
+    margin-bottom: 30px;
+  }
+  .features.col-md-3 > p {
+    font-size: 1em;
+    margin: -12px 0 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .banner-click .prev, .banner-click .next {
+    top: 135px;
+  }
+  .fixed {
+    position: relative;
+    width: 16.45%;
+  }
+  .movie-poster {
+    position: relative;;
+    top: 0;
+  }
+  .movie-poster img{
+    border: 2px solid white;
+    min-height: 0;
+  }
+  .profil_actor{
+    border: none !important;
+  }
+  .movie-features {
+    display: none;
+    float: right;
+    margin-left: 4px;
+    padding: 0 5px;
+    width: 72%;
+  }
+  .movie-poster-img {
+    width: 190px;
+  }
+  .movie-poster {
+    margin-top: -125px;
+  }
+  .poster-img {
+    height: 231px;
+    position: relative;
+  }
+  .poster-title{
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+  }
+  .poster-title.title-person{
+    margin-bottom: 80px;
+  }
+  .poster-title h2{
+    text-transform: uppercase;
+  }
+  .movie-poster-img {
+    display: inline-block;
+  }
+  .movie-details h2{
+    display: none;
+  }
+  .movie-galery, .movie-galery-button {
+    display: none;
+  }
+  .poster-title form {
+    width: 50%;
+  }
+  .movie-border-txt {
+    background-color: $color-grey-light;
+    color: white;
+    padding: 12px 0;
+  }
+  .movie-border-txt p, .movie-border-txt .col-md-7{
+    width: 100%;
+    display: block;
+  }
+  .movie-favorites p{
+    float: left;
+  }
+  .only-auth {
+    right: 73px;
+  }
+  .movies_actor .proposal-image, .movies_similar .proposal-image{
+    height: 244px;
+  }
+}
+@media screen and (max-width: 980px){
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+}
+@media screen and (max-width: 840px) {
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .movie-trailer-popup{
+    width: 90%;
+  }
+  .movie-trailer-video{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slogan-home {
+    font-size: 2em;
+  }
+  .movie-banner-img{
+    width: 100% auto;
+    overflow: hidden;
+  }
+  .movie-banner-img > img {
+      height: 100%;
+      width: auto;
+  }
+  .quiz.container {
+      height: 100%;
+  }
+  .quiz {
+    padding: 0px;
+  }
+  .quiz{
+    padding-top: 190px !important;
+  }
+  .question-title {
+    margin-top: -120px;
+    font-size: 2.5em;
+  }
+  .yes, .no{
+    margin-top: -50px;
+  }
+  #backdrop{
+    height: 300px !important;
+  }
+  .actor-movie-next > a {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+  #hamburger-menu {
+    background-color: $color-blue-dark;
+    display: block;
+    float: right;
+    height: 100%;
+    padding-bottom: 25px;
+    position: fixed;
+    right: -70%;
+    top: 50px;
+    width: 70%;
+    z-index: 2000;
+  }
+  #hamburger-menu ul{
+    margin-top: 50px;
+  }
+  #hamburger-menu li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  #hamburger-menu li a {
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 35px;
+  }
+  #hamburger-menu img {
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 17px;
+  }
+  .banner{
+    margin-top: 50px;
+  }
+}
+@media screen and(max-width: 767px){
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 338px;
+  }
+}
+@media screen and(max-width: 750px){
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 315px;
+}
+}
+@media screen and (max-width: 720px){
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px){
+  .proposal-image {
+    height: 217px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 305px;
+  }
+}
+@media screen and (max-width: 650px){
+  .proposal-image {
+    height: 199px;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 732px) {
+  .proposal li {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 610px){
+  .discover, .discover-image{
+    display: block;
+    width: 100%;
+  }
+  .discover-logo img, .discover-logo{
+    width: 100px;
+  }
+  .discover-image{
+    margin-top: -22px;
+  }
+  .page-discover {
+    padding-top: 90px;
+  }
+  .discover-title {
+    font-size: 1.3em;
+  }
+  .proposal-image {
+    height: 184px;
+  }
+}
+@media screen and (max-width: 612px){
+  .poster-title > h2 {
+    font-size: 1.7em;
+  }
+  .proposal-image {
+    height: 184px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 255px;
+  }
+  .poster-title form {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .proposal li {
+    width: 32.6%;
+  }
+  .features.col-md-3 > p {
+    display: none;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 253px;
+  }
+}
+@media screen and (max-width: 570px){
+  .poster-title > h2 {
+    font-size: 1.5em;
+  }
+  .movie-synopsis > p {
+    font-size: 1.1em;
+    }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 240px;
+  }
+  .poster-title form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 538px){
+  .poster-title > h2 {
+    font-size: 1.2em;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+}
+@media screen and (max-width: 524px){
+  .quiz {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 500px){
+  .movie-banner-img > img {
+    height: 100%;
+    width: auto;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 205px;
+  }
+  .question-title {
+    font-size: 2em;
+    margin-bottom: 90px;
+    margin-top: -120px;
+  }
+  .movie-infos-2{
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    padding: 0;
+  }
+  .movie-infos-1{
+    display: block;
+    width: 100%;
+  }
+  .movie-trailer{
+    display: none;
+  }
+  .movie-trailer-responsive{
+    display: block;
+  }
+}
+@media screen and (max-width: 487px){
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    width: 60%;
+  }
+  .poster-title.title-person{
+    display: inline-block;
+    width: 40%;
+  }
+  .movie-poster-img {
+    width: 199px;
+  }
+  .poster-img {
+    height: 202px;
+    position: relative;
+  }
+  .movie-poster {
+    margin-top: -115px;
+  }
+  .poster-title > h2 {
+    font-size: 1.2em;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 176px;
+  }
+  .features{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #backdrop{
+    height: 235px !important;
+  }
+}
+@media screen and (max-width: 447px) {
+  .movie-container.container {
+    padding: 0;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 180px;
+  }
+  .movie-poster-img {
+    width: 130px;
+  }
+  .poster-img {
+    height: 172px;
+    position: relative;
+  }
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 85px;
+    vertical-align: bottom;
+  }
+  .movie-poster {
+    margin-top: -100px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .poster-title form {
+    width: 68%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .features-todo .image-todo {
+    width: 90%;
+  }
+  .features.col-md-3 > h2{
+    font-size: 1em;
+  }
+  .features.col-md-3.col-sm-6 {
+    margin-bottom: 5px;
+  }
+  .features-quiz {
+    border-bottom: medium none;
+    margin-bottom: -50px;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 171px;
+  }
+  .slogan-home {
+    font-size: 1.5em;
+  }
+  .proposal.col-md-4 > img {
+    padding-bottom: 10px;
+    width: 30px;
+  }
+  .proposal.col-md-4 > .proposal-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  .proposal-title span{
+    display: block;
+  }
+  .proposal-next a {
+    color: $color-grey-details;
+    display: none;
+    text-decoration: underline;
+  }
+  .quiz-link {
+    font-size: 1em;
+  }
+  .banner {
+    display: none;
+  }
+  .banner-click.container {
+    display: none;
+  }
+  .proposal-details {
+    display: none;
+  }
+  .detector {
+    position: static;
+}
+  .proposal ul {
+    margin-top: -18px;
+    padding: 0;
+  }
+  section.proposal {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 0.7em;
+  }
+  .cast td {
+    font-size: 0.8em;
+  }
+  .movie-synopsis p {
+    font-size: 1em;
+  }
+  .movie-item span, .movie-item strong, .item-light, .movie-casting-next a {
+    font-size: 1em;
+  }
+  .quiz.container {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .proposal.col-md-4 > .proposal-title {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .start-quiz {
+    background-color: $color-blue;
+    padding-top: 85px;
+  }
+}
+@media screen and (max-width: 400px){
+  .proposal-image{
+    height: 157px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 155px;
+  }
+  #hamburger-menu > ul {
+    margin-left: -35px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .proposal li {
+    width: 32.2%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .slogan-home {
+    font-size: 1.3em;
+  }
+  .poster-title > h2 {
+    font-size: 1em;
+  }
+  .movie-poster-img {
+    width: 120px;
+  }
+  .poster-img {
+    height: 157px;
+  }
+  .poster-title form {
+    width: 100%;
+  }
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 50px;
+    vertical-align: bottom;
+    width: 55%;
+  }
+  .movie-border-txt p {
+    font-size: 1em;
+  }
+  .movies-result li{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .proposal li {
+    padding: 15px 3px;
+  }
+  .poster-title.title-person{
+    display: inline-block;
+    width: 40%;
+  }
+  #backdrop {
+    height: 180px !important;
+  }
+  .proposal-image{
+    height: 150px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image{
+    height: 156px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  .movie-banner-img {
+    height: 360px;
+    overflow: hidden;
+  }
+  .yes, .no {
+    margin-top: -100px;
+  }
+  .yes {
+    padding-right: 30px;
+  }
+  .no {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .movie-poster-img {
+    width: 118px;
+  }
+  .poster-img {
+    height: 154px;
+  }
+  .poster-title > h2 {
+    font-size: 1em;
+  }
+  .movie-border-txt p {
+    font-size: 0.9em;
+  }
+  .movies-result li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .proposal li {
+    width: 32%;
+  }
+  .proposal-image {
+    height: 130px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image{
+    height: 145px;
+  }
+  .movies_similar {
+    margin-top: 0;
+    padding: 0;
+  }
+}

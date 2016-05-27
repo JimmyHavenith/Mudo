@@ -1,0 +1,2082 @@
+@charset "UTF-8";
+/* LES DIFFERENTES TYPOS */
+/* LES DIFFERENTES COULEURS */
+/* LE MENU */
+header {
+  background-color: #20272d;
+  font-family: "Roboto",sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  width: 100%;
+  z-index: 10000;
+}
+
+#logo img {
+  width: 52px;
+}
+
+.search {
+  padding-top: 14px;
+}
+
+.form-search.col-md-5 > img {
+  margin-right: 15px;
+  width: 20px;
+}
+
+.form-search input {
+  border: medium none;
+  border-radius: 2px;
+  font-size: 0.7em;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.menu-profil {
+  margin-top: -20px;
+}
+
+.menu {
+  background-color: #20272d;
+  box-shadow: 0 3px 12px #191d22;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  position: fixed;
+}
+
+.menu h1 {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.menu h1 a {
+  color: white;
+}
+
+.menu h1 a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #20272d;
+  border: medium none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.menu-with-js {
+  display: none;
+}
+
+.navbar-brand {
+  margin: -12px;
+  text-indent: -5000px;
+}
+
+.navbar-brand > img {
+  margin-top: -39px;
+  width: 100px;
+}
+
+.navbar-form input {
+  background-color: white;
+  border: 2px solid #1c1f22;
+  border-radius: 5px;
+  color: #1c1f22;
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding: 3px 0 4px 34px;
+}
+
+.navbar-form input:focus {
+  border-color: #66afe9 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6) !important;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #20272d;
+  color: white;
+}
+
+.dropdown-toggle:focus, .link-to-connect:focus {
+  color: white !important;
+}
+
+.dropdown-menu.menu-header {
+  background-color: #20272d !important;
+}
+
+.dropdown-menu.menu-header li a {
+  color: white !important;
+}
+
+.navbar-nav > li > .dropdown-menu.menu-header {
+  margin-top: -1px;
+}
+
+.dropdown-menu.menu-header > li > a:focus, .dropdown-menu.menu-header > li > a:hover {
+  background-color: #191d22 !important;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white !important;
+}
+
+.menu .dropdown-toggle, .nav.navbar-nav.navbar-right a {
+  font-size: 0.9em;
+}
+
+.dropdown-menu.menu-header .divider {
+  background-color: #3f3f3e !important;
+}
+
+.dropdown-menu.menu-header > li > a {
+  padding: 10px 16px !important;
+  position: relative !important;
+  padding-left: 43px !important;
+}
+
+.dropdown-menu.menu-header img {
+  left: 14px;
+  padding-right: 7px;
+  position: absolute;
+  top: 12px;
+  width: 23px;
+}
+
+.navbar-form.navbar-left > img {
+  left: 145px;
+  position: absolute;
+  top: 17px;
+  width: 16px;
+}
+
+.dropdown-toggle:hover {
+  color: white !important;
+}
+
+/* NO JS */
+.menu-no-js {
+  display: block;
+  margin-top: 83px;
+  width: 100%;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.menu-no-script ul li a {
+  padding: 0 !important;
+  font-size: 0.8em !important;
+}
+
+.menu-no-script .nav.navbar-nav.navbar-left {
+  padding-left: 16px;
+}
+
+.menu-no-script .nav.navbar-nav.navbar-left li {
+  padding: 15px 21px 11px;
+}
+
+.menu-no-script .nav.navbar-nav.navbar-left img {
+  left: -22px;
+  position: absolute;
+  top: 2px;
+  width: 17px;
+}
+
+/* PAGE CONNEXION / INSCRIPTION */
+.connect-bg {
+  width: 100%;
+  position: relative;
+  background-image: url("../img/jungle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-bg {
+  width: 100%;
+  position: relative;
+  background-image: url("../img/register.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.formulaire {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.formulaire h2 {
+  color: #20272d;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formulaire p {
+  text-align: center;
+}
+
+.formulaire .register div {
+  margin-bottom: 15px;
+}
+
+.formulaire button {
+  background-color: #323844;
+  border: medium none;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.formulaire button:hover, .formulaire button:focus, .formulaire button:active {
+  background-color: #191d22 !important;
+}
+
+.formulaire .return-home {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.formulaire .not-register {
+  margin-top: 25px;
+}
+
+/* PAGE D'ACCUEIL */
+body {
+  background-color: white;
+  font-family: "Roboto";
+}
+
+body #logo {
+  float: left;
+  height: 50px;
+}
+
+body #logo h1 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  width: 92px;
+}
+
+.header-banner {
+  overflow: hidden;
+}
+
+.banner-no-js {
+  display: none;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  float: left;
+}
+
+.banner-img img {
+  left: 0;
+  position: relative;
+}
+
+.banner-click .prev {
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrows.png");
+  background-position: -50px 0;
+}
+
+.banner-click .next {
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrows.png");
+  background-position: 50px 0;
+}
+
+.banner-click {
+  opacity: 0;
+}
+
+section.features {
+  background-color: #20272d;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.slogan-home {
+  font-family: "Mohave";
+  text-align: center;
+  font-size: 2.3em;
+  color: white;
+}
+
+.button-quiz {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-family: "Montserrat";
+}
+
+.button-quiz a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.quiz-link {
+  background-color: #ce1919;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 1.3em;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.quiz-link .quiz-link-text {
+  position: relative;
+  z-index: 200;
+}
+
+.quiz-link-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 150%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 150%;
+  transform: rotate(-25deg);
+  transition: all 0.3s ease 0s;
+  z-index: 100;
+}
+
+.quiz-link:hover .quiz-link-bg {
+  bottom: -125%;
+  left: -40%;
+  right: -40%;
+  top: -125%;
+  transition: all 0.5s ease 0s;
+}
+
+.start-quiz {
+  background-color: #20272d;
+  padding-top: 35px;
+}
+
+.features-quiz {
+  border-bottom: 2px solid #1c1f22;
+}
+
+.features-todo {
+  margin-top: 50px;
+}
+
+.features-todo a {
+  color: white;
+}
+
+.features-todo a:hover h2, .features-todo a:focus h2 {
+  color: #ce1919;
+}
+
+.features.col-md-3 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features.col-md-3 h2 {
+  display: block;
+  font-size: 1.4em;
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.features.col-md-3 p {
+  font-size: 1.1em;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.image-todo {
+  position: relative;
+}
+
+.only-auth {
+  position: absolute;
+  right: 40px;
+  top: -6px;
+  width: 15px;
+}
+
+section.proposal {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.proposal > img {
+  border-bottom: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.proposal > .proposal-title {
+  color: #20272d;
+  display: block;
+  font-family: "Mohave";
+  font-size: 1.4em;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.proposal-title span {
+  display: none;
+}
+
+.proposal ul {
+  margin-top: 20px;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.proposal li {
+  overflow: hidden;
+  padding: 5px 8px;
+  vertical-align: top;
+  width: 173px;
+  display: inline-block;
+}
+
+.proposal-image {
+  height: 236px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 1px 0px 2px #777;
+}
+
+.proposal-image img {
+  height: 100%;
+}
+
+.proposal-image .overlay img {
+  height: auto;
+  width: 100%;
+}
+
+.movies-result .proposal-image {
+  height: 248px;
+}
+
+.movies_actor .proposal-image, .movies_similar .proposal-image {
+  height: 295px;
+}
+
+.proposal-details {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.proposal-details > a {
+  color: #5f5e5e;
+  font-size: 0.9em;
+  font-family: "Montserrat";
+}
+
+.proposal-next {
+  display: block;
+  margin-right: 7px;
+  text-align: right;
+}
+
+.proposal-next a {
+  text-decoration: underline;
+  color: #5f5e5e;
+  margin-right: 10px;
+}
+
+.proposal-next a:hover {
+  text-decoration: none;
+  color: #5f5353;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: 200;
+  transition: all 0.1s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.proposal-image:hover .overlay, .proposal-image a:focus ~ .overlay {
+  opacity: 1;
+}
+
+footer {
+  background-color: #20272d;
+  padding: 18px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+/* PAGE D'UN FILM */
+.movie-poster-img {
+  display: block;
+  overflow: hidden;
+  padding: 15px 8px;
+  vertical-align: top;
+  width: 260px;
+}
+
+.poster-img {
+  border-radius: 2px;
+  box-shadow: 1px 0 2px #777;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.poster-title {
+  display: none;
+}
+
+.movie-poster-img img {
+  width: 100%;
+  min-height: 350px;
+}
+
+.movie-banner-img {
+  height: 394px;
+  overflow: hidden;
+}
+
+.movie-banner-img > img {
+  width: 100%;
+}
+
+.movie-border {
+  background-color: #20272d;
+  height: 7px;
+}
+
+.quiz.container {
+  height: 422px;
+}
+
+.movie-details {
+  margin-bottom: 50px;
+}
+
+.movie-details h2 {
+  font-family: "Montserrat";
+  font-size: 2.3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin-bottom: 35px;
+}
+
+.item-light {
+  color: #5e5d5d;
+  font-size: 1.2em;
+}
+
+.rating {
+  display: none;
+}
+
+.rating-background {
+  background-color: #d1cfcf;
+  height: 22px;
+  width: 100px;
+}
+
+.rating-vote {
+  position: absolute;
+  right: -48px;
+  top: 0px;
+}
+
+.movie-item.rating {
+  width: 100px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.rating-background-yellow {
+  background-color: #e2e227;
+  height: 22px;
+  position: absolute;
+  top: 0;
+}
+
+.rating-star {
+  position: absolute;
+  top: -2px;
+}
+
+.movie-item strong {
+  font-size: 1.2em;
+}
+
+.movie-item a {
+  color: #20272d;
+  text-decoration: underline;
+}
+
+.movie-item a:hover {
+  text-decoration: none;
+  color: #20272d;
+}
+
+.movie-infos-1, .movie-infos-2 {
+  padding: 0;
+}
+
+.movie-synopsis {
+  margin-top: 25px;
+  padding: 0;
+}
+
+.movie-synopsis > p {
+  color: #5e5d5d;
+  font-family: "montserrat";
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.movie-casting {
+  margin: 25px 0;
+  padding: 0;
+}
+
+.movie-casting .cast-character {
+  float: right;
+}
+
+.movie-casting .cast {
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.movie-casting tr:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+.movie-casting td {
+  padding: 8px;
+}
+
+.movie-infos.person-actor {
+  margin-top: 55px;
+}
+
+.cast-actor > a {
+  color: #20272d;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cast-actor a:hover, .cast-actor a:focus {
+  text-decoration: none;
+  color: #20272d;
+}
+
+.movie-casting-next > a {
+  float: right;
+  margin-top: 20px;
+}
+
+.add-wl, .add-mkv {
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  margin-right: -21px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  width: 99%;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+}
+
+.add-mkv {
+  background-color: #4c85ae;
+}
+
+.add-wl {
+  background-color: #5eb33e;
+}
+
+.add-mkv:hover, .add-mkv:focus {
+  background-color: #2b6792;
+}
+
+.add-wl:hover, .add-wl:focus {
+  background-color: #3e8424;
+}
+
+.del-wl, .del-mkv {
+  background-color: #b1a5a5;
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  margin-right: -21px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  width: 99%;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+}
+
+.del-wl:hover, .del-wl:focus, .del-mkv:hover, .del-mkv:focus {
+  background-color: #cd2a2f;
+}
+
+.movie-features {
+  margin-left: 4px;
+  padding: 0 5px;
+  width: 255px;
+}
+
+.movie-features button {
+  border: medium none;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 6px 0;
+  width: 100%;
+}
+
+.movie-features .b-watchlist {
+  background-color: #5cb23f;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.movie-features .b-markview {
+  background-color: #4c85ae;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.movie-features .b-watchlist:hover, .movie-features .b-watchlist:focus {
+  background-color: #418727;
+}
+
+.movie-features .b-markview:hover, .movie-features .b-markview:focus {
+  background-color: #356b8c;
+}
+
+.movie-galery {
+  display: none;
+}
+
+.movie-galery-container {
+  margin-top: 20px;
+}
+
+.galery-img {
+  float: left;
+  width: 413px;
+}
+
+.galery-img img {
+  width: 403px;
+  border-radius: 5px;
+  left: 0;
+  position: relative;
+}
+
+.movie-galery {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+
+.movie-galery-button {
+  display: none;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.galery-prev {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/fleche-film.png");
+  background-position: -35px 0;
+  position: absolute;
+  top: 0;
+  left: 365px;
+}
+
+.galery-next {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/fleche-film.png");
+  background-position: 35px 0;
+  position: absolute;
+  top: 0;
+  right: 360px;
+}
+
+.galery-prev:focus, .galery-next:focus {
+  outline: inherit;
+}
+
+.movie-poster-scroll {
+  position: relative;
+}
+
+.movie-poster {
+  position: absolute;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  width: 16.45%;
+  top: 50px;
+}
+
+.movie-trailer img {
+  width: 100%;
+}
+
+.movie-trailer {
+  display: none;
+  position: relative;
+}
+
+.movie-trailer-responsive {
+  display: none;
+}
+
+.see-trailer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  transition: all 0.5s ease;
+}
+
+.see-trailer:hover, .see-trailer:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.movie-trailer-popup {
+  position: fixed;
+  z-index: 200;
+  display: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.movie-trailer-infos {
+  background-color: black;
+  color: #4f4e4e;
+  padding: 5px;
+}
+
+.video-right {
+  float: right;
+  margin-right: 12px;
+}
+
+.video-left {
+  margin-left: 12px;
+}
+
+.video-right > a {
+  color: #4f4e4e;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.video-right:hover a {
+  color: white;
+}
+
+#body-black {
+  display: none;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* PAGE QUIZ */
+.movie-banner-img {
+  position: relative;
+}
+
+.quiz {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 125px;
+  overflow: hidden;
+}
+
+.question-title {
+  color: white;
+  font-family: "Mohave";
+  font-size: 3.1em;
+  text-align: center;
+}
+
+.yes {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 80px;
+}
+
+.no {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
+.no input {
+  display: none;
+}
+
+.yes.col-md-6 > p {
+  float: right;
+}
+
+.yes a, .no a {
+  background-image: url("../img/btn-quiz.png");
+  height: 110px;
+  text-indent: 2000px;
+  width: 110px;
+  display: block;
+}
+
+.yes a {
+  background-position: 0 110px;
+}
+
+.no a {
+  background-position: -110px 0px;
+}
+
+.yes a:hover, .yes a:focus {
+  background-position: 110px 0px;
+}
+
+.no a:hover, .no a:focus {
+  background-position: -220px 0px;
+}
+
+.movies-result.container {
+  margin-top: 50px;
+}
+
+.movies-result ul, .movies-result, .proposal .container {
+  padding: 0px;
+}
+
+.movies-result li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.movie-border-txt {
+  background-color: #5e5d5d;
+  padding: 12px 0;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.movie-border-txt p {
+  font-family: "Montserrat";
+  font-size: 1.2em;
+}
+
+.movies-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.movie-continue.container {
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+
+.continue {
+  margin: 0 auto;
+  width: 41px;
+}
+
+.movie-continue img {
+  display: block;
+  margin: 0 auto;
+  width: 41px;
+}
+
+.loading {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.loading > p {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.restart-quiz {
+  margin-top: 80px;
+}
+
+.restart-quiz p {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.restart-link {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  background-color: #ce1919;
+  text-transform: uppercase;
+  padding: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.restart-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 150%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 150%;
+  transform: rotate(-25deg);
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+}
+
+.restart-link:hover .restart-bg {
+  bottom: -160%;
+  left: -40%;
+  right: -40%;
+  top: -160%;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+
+.restart-link:hover span {
+  color: white;
+}
+
+.restart-link:hover {
+  text-decoration: none;
+}
+
+.end-quiz > p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.movie-border-txt img {
+  width: 12px;
+}
+
+.movie-border-txt span {
+  font-size: 0.9em;
+}
+
+.movie-border-txt .col-md-7 {
+  width: 507px;
+  float: right;
+  padding: 3px 0 0;
+}
+
+.bulle-correspond {
+  padding-right: 15px;
+}
+
+.green, .blue, .orange {
+  float: left;
+  margin-left: 15px;
+}
+
+.detector {
+  bottom: 11px;
+  left: 18px;
+  position: absolute;
+  z-index: 200;
+}
+
+.detector img {
+  width: 12px;
+}
+
+.results-quiz-movies .proposal-details {
+  padding-left: 20px;
+}
+
+.proposal-details {
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.movie-year-actor {
+  width: 15%;
+}
+
+.movies_actor {
+  margin-top: 25px;
+}
+
+.movies_similar {
+  margin-top: 55px;
+  padding: 0;
+}
+
+.movies_actor ul, .movies_similar ul {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.movies_actor ul li, .movies_similar ul li {
+  padding: 5px;
+  list-style-type: none;
+  height: 100%;
+}
+
+.movies_actor span, .movies_similar span {
+  margin-bottom: 10px;
+}
+
+.actor-movie-next > a {
+  color: #20272d;
+  float: right;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.actor-movie-next a:hover {
+  text-decoration: none;
+}
+
+/*  PAGE WATCHLIST, MARKVIEW */
+.page-watchlist, .page-discovers {
+  background-color: #f5f2f2;
+  min-height: 550px;
+}
+
+.favorites {
+  background-color: #f1f4f5;
+  margin-bottom: 30px;
+  padding: 30px 15px 0;
+  margin-top: 0px !important;
+}
+
+.page-watchlist-title {
+  position: relative;
+  display: block;
+}
+
+.page-watchlist-title, .page-discovers-title {
+  margin-top: 50px;
+  background-color: white;
+  border-bottom: 2px solid #eaeaea !important;
+}
+
+.page-watchlist-title h2 {
+  font-family: "montserrat";
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.fav-title, .fav-title {
+  border-bottom: 2px solid rgba(206, 25, 25, 0.5);
+  padding-bottom: 8px;
+}
+
+.nb-films-wl, .nb-films-view {
+  float: right;
+  margin-top: 18px;
+  background-color: #20272d;
+  border-radius: 3px;
+  color: white;
+  font-size: 1.1em;
+  padding: 4px;
+}
+
+.movie-empty {
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+
+.movie-empty > span {
+  color: #76808f;
+  display: block;
+  font-size: 0.7em;
+  margin-top: 10px;
+}
+
+/* message ajout */
+.modal-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30px;
+}
+
+.modal-header .close {
+  margin-top: -15px;
+}
+
+.modal-title {
+  color: #5b5454;
+  font-size: 2.2em;
+  font-weight: bold;
+  line-height: 1.42857;
+  margin: 0;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 15px 0 5px;
+}
+
+.modal-body > p {
+  color: #63a150;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-default {
+  color: grey;
+}
+
+/* PAGE DISCOVER */
+.page-discover {
+  background-color: #f5f2f2;
+  min-height: 675px;
+  padding-top: 150px;
+}
+
+.discover-submit {
+  display: block;
+  width: 165px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #ce1919;
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  color: #fff;
+  display: block !important;
+}
+
+.btn-group.bootstrap-select {
+  padding-bottom: 40px;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100% !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.discover .form {
+  font-size: 1.5em;
+}
+
+.page-discover .form-js {
+  display: none;
+}
+
+.discover-logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.discover-logo img {
+  width: 250px;
+}
+
+.discover-title {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+
+.page-discover label {
+  font-size: 0.6em;
+}
+
+.col-md-2.result-discover-img {
+  width: 88px;
+}
+
+.page-discovers-title h2 {
+  font-family: "montserrat";
+  font-size: 1.1em;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.movie-results-title {
+  margin-top: 12px;
+}
+
+.btn-danger:hover {
+  background-color: #ce1919 !important;
+}
+
+/* PAGE 404 */
+.div-page-error {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  width: 350px;
+}
+
+.title-page-error {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-page-error span {
+  color: #5f5e5e;
+  display: block;
+  font-size: 0.4em;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.message-page-error {
+  color: #5f5e5e;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.content-page-error a {
+  background-color: #5eb33e;
+  border-radius: 3px;
+  color: white;
+  padding: 9px 10px;
+}
+
+.content-page-error a:hover {
+  text-decoration: none;
+  background-color: #3e8424;
+  color: white;
+}
+
+.content-page-error > p {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* ADAPTABILITÉ DU SITE */
+@media only screen and (max-width: 1280px) {
+  .banner-click .prev, .banner-click .next {
+    top: 175px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .proposal li {
+    width: 144px;
+  }
+  .proposal-image {
+    height: 192px;
+  }
+  .movies-result .proposal-image {
+    height: 197px;
+  }
+  .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 228px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    padding-left: 40px;
+  }
+  .movie-galery, .movie-galery-button {
+    display: none;
+  }
+  .only-auth {
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .features.col-md-3.col-sm-6 {
+    margin-bottom: 30px;
+  }
+  .features.col-md-3 > p {
+    font-size: 1em;
+    margin: -12px 0 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .banner-click .prev, .banner-click .next {
+    top: 135px;
+  }
+  .fixed {
+    position: relative;
+    width: 16.45%;
+  }
+  .movie-poster {
+    position: relative;
+    top: 0;
+  }
+  .movie-poster img {
+    border: 2px solid white;
+    min-height: 0;
+  }
+  .profil_actor {
+    border: none !important;
+  }
+  .movie-features {
+    display: none;
+    float: right;
+    margin-left: 4px;
+    padding: 0 5px;
+    width: 72%;
+  }
+  .movie-poster-img {
+    width: 190px;
+  }
+  .movie-poster {
+    margin-top: -125px;
+  }
+  .poster-img {
+    height: 231px;
+    position: relative;
+  }
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+  }
+  .poster-title.title-person {
+    margin-bottom: 80px;
+  }
+  .poster-title h2 {
+    text-transform: uppercase;
+  }
+  .movie-poster-img {
+    display: inline-block;
+  }
+  .movie-details h2 {
+    display: none;
+  }
+  .movie-galery, .movie-galery-button {
+    display: none;
+  }
+  .poster-title form {
+    width: 50%;
+  }
+  .movie-border-txt {
+    background-color: #5e5d5d;
+    color: white;
+    padding: 12px 0;
+  }
+  .movie-border-txt p, .movie-border-txt .col-md-7 {
+    width: 100%;
+    display: block;
+  }
+  .movie-favorites p {
+    float: left;
+  }
+  .only-auth {
+    right: 73px;
+  }
+  .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 244px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .movie-trailer-popup {
+    width: 90%;
+  }
+  .movie-trailer-video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slogan-home {
+    font-size: 2em;
+  }
+  .movie-banner-img {
+    width: 100% auto;
+    overflow: hidden;
+  }
+  .movie-banner-img > img {
+    height: 100%;
+    width: auto;
+  }
+  .quiz.container {
+    height: 100%;
+  }
+  .quiz {
+    padding: 0px;
+  }
+  .quiz {
+    padding-top: 190px !important;
+  }
+  .question-title {
+    margin-top: -120px;
+    font-size: 2.5em;
+  }
+  .yes, .no {
+    margin-top: -50px;
+  }
+  #backdrop {
+    height: 300px !important;
+  }
+  .actor-movie-next > a {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+  #hamburger-menu {
+    background-color: #191d22;
+    display: block;
+    float: right;
+    height: 100%;
+    padding-bottom: 25px;
+    position: fixed;
+    right: -70%;
+    top: 50px;
+    width: 70%;
+    z-index: 2000;
+  }
+  #hamburger-menu ul {
+    margin-top: 50px;
+  }
+  #hamburger-menu li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  #hamburger-menu li a {
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 35px;
+  }
+  #hamburger-menu img {
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 17px;
+  }
+  .banner {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 338px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .proposal-image {
+    height: 217px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 305px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .proposal-image {
+    height: 199px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 732px) {
+  .proposal li {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .discover, .discover-image {
+    display: block;
+    width: 100%;
+  }
+  .discover-logo img, .discover-logo {
+    width: 100px;
+  }
+  .discover-image {
+    margin-top: -22px;
+  }
+  .page-discover {
+    padding-top: 90px;
+  }
+  .discover-title {
+    font-size: 1.3em;
+  }
+  .proposal-image {
+    height: 184px;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .poster-title > h2 {
+    font-size: 1.7em;
+  }
+  .proposal-image {
+    height: 184px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 255px;
+  }
+  .poster-title form {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .proposal li {
+    width: 32.6%;
+  }
+  .features.col-md-3 > p {
+    display: none;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 253px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .poster-title > h2 {
+    font-size: 1.5em;
+  }
+  .movie-synopsis > p {
+    font-size: 1.1em;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 240px;
+  }
+  .poster-title form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .poster-title > h2 {
+    font-size: 1.2em;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .quiz {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .movie-banner-img > img {
+    height: 100%;
+    width: auto;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 205px;
+  }
+  .question-title {
+    font-size: 2em;
+    margin-bottom: 90px;
+    margin-top: -120px;
+  }
+  .movie-infos-2 {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    padding: 0;
+  }
+  .movie-infos-1 {
+    display: block;
+    width: 100%;
+  }
+  .movie-trailer {
+    display: none;
+  }
+  .movie-trailer-responsive {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    width: 60%;
+  }
+  .poster-title.title-person {
+    display: inline-block;
+    width: 40%;
+  }
+  .movie-poster-img {
+    width: 199px;
+  }
+  .poster-img {
+    height: 202px;
+    position: relative;
+  }
+  .movie-poster {
+    margin-top: -115px;
+  }
+  .poster-title > h2 {
+    font-size: 1.2em;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 176px;
+  }
+  .features {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #backdrop {
+    height: 235px !important;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .movie-container.container {
+    padding: 0;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 180px;
+  }
+  .movie-poster-img {
+    width: 130px;
+  }
+  .poster-img {
+    height: 172px;
+    position: relative;
+  }
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 85px;
+    vertical-align: bottom;
+  }
+  .movie-poster {
+    margin-top: -100px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .poster-title form {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .features-todo .image-todo {
+    width: 90%;
+  }
+  .features.col-md-3 > h2 {
+    font-size: 1em;
+  }
+  .features.col-md-3.col-sm-6 {
+    margin-bottom: 5px;
+  }
+  .features-quiz {
+    border-bottom: medium none;
+    margin-bottom: -50px;
+  }
+  .proposal-image, .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 171px;
+  }
+  .slogan-home {
+    font-size: 1.5em;
+  }
+  .proposal.col-md-4 > img {
+    padding-bottom: 10px;
+    width: 30px;
+  }
+  .proposal.col-md-4 > .proposal-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  .proposal-title span {
+    display: block;
+  }
+  .proposal-next a {
+    color: #5f5e5e;
+    display: none;
+    text-decoration: underline;
+  }
+  .quiz-link {
+    font-size: 1em;
+  }
+  .banner {
+    display: none;
+  }
+  .banner-click.container {
+    display: none;
+  }
+  .proposal-details {
+    display: none;
+  }
+  .detector {
+    position: static;
+  }
+  .proposal ul {
+    margin-top: -18px;
+    padding: 0;
+  }
+  section.proposal {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 0.7em;
+  }
+  .cast td {
+    font-size: 0.8em;
+  }
+  .movie-synopsis p {
+    font-size: 1em;
+  }
+  .movie-item span, .movie-item strong, .item-light, .movie-casting-next a {
+    font-size: 1em;
+  }
+  .quiz.container {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .proposal.col-md-4 > .proposal-title {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .start-quiz {
+    background-color: #20272d;
+    padding-top: 85px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .proposal-image {
+    height: 157px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 155px;
+  }
+  #hamburger-menu > ul {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .proposal li {
+    width: 32.2%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .slogan-home {
+    font-size: 1.3em;
+  }
+  .poster-title > h2 {
+    font-size: 1em;
+  }
+  .movie-poster-img {
+    width: 120px;
+  }
+  .poster-img {
+    height: 157px;
+  }
+  .poster-title form {
+    width: 100%;
+  }
+  .poster-title {
+    display: inline-block;
+    margin-bottom: 50px;
+    vertical-align: bottom;
+    width: 55%;
+  }
+  .movie-border-txt p {
+    font-size: 1em;
+  }
+  .movies-result li {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .proposal li {
+    padding: 15px 3px;
+  }
+  .poster-title.title-person {
+    display: inline-block;
+    width: 40%;
+  }
+  #backdrop {
+    height: 180px !important;
+  }
+  .proposal-image {
+    height: 150px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 156px;
+  }
+  .movie-details {
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  .movie-banner-img {
+    height: 360px;
+    overflow: hidden;
+  }
+  .yes, .no {
+    margin-top: -100px;
+  }
+  .yes {
+    padding-right: 30px;
+  }
+  .no {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .movie-poster-img {
+    width: 118px;
+  }
+  .poster-img {
+    height: 154px;
+  }
+  .poster-title > h2 {
+    font-size: 1em;
+  }
+  .movie-border-txt p {
+    font-size: 0.9em;
+  }
+  .movies-result li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .proposal li {
+    width: 32%;
+  }
+  .proposal-image {
+    height: 130px;
+  }
+  .movies-result .proposal-image, .movies_actor .proposal-image, .movies_similar .proposal-image {
+    height: 145px;
+  }
+  .movies_similar {
+    margin-top: 0;
+    padding: 0;
+  }
+}

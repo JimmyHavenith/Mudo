@@ -1,0 +1,324 @@
+/* PAGE D'UN FILM */
+
+.movie-poster-img {
+    display: block;
+    overflow: hidden;
+    padding: 15px 8px;
+    vertical-align: top;
+    width: 260px;
+}
+.poster-img{
+  border-radius: 2px;
+  box-shadow: 1px 0 2px #777;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+.poster-title{
+  display: none;
+}
+.movie-poster-img img {
+    width: 100%;
+    min-height: 350px;
+}
+.movie-banner-img{
+  height: 394px;
+  overflow: hidden;
+}
+.movie-banner-img > img {
+    width: 100%;
+}
+.movie-border {
+    background-color: $color-blue;
+    height: 7px;
+}
+.quiz.container{
+  height: 422px;
+}
+.movie-details {
+    margin-bottom: 50px;
+    h2{
+      font-family: $font-title;
+      font-size: 2.3em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      padding: 0px;
+      margin-bottom: 35px;
+    }
+}
+.item-light {
+    color: $color-grey-light;
+    font-size: 1.2em;
+}
+.rating{
+  display: none;
+}
+.rating-background {
+    background-color: $color-bg-rating;
+    height: 22px;
+    width: 100px;
+}
+.rating-vote {
+    position: absolute;
+    right: -48px;
+    top: 0px;
+}
+.movie-item.rating {
+    width: 100px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.rating-background-yellow {
+    background-color: $color-star-rating;
+    height: 22px;
+    position: absolute;
+    top: 0;
+}
+.rating-star {
+    position: absolute;
+    top: -2px;
+}
+.movie-item strong {
+    font-size: 1.2em;
+}
+.movie-item a {
+    color: $color-blue;
+    text-decoration: underline;
+}
+.movie-item a:hover {
+    text-decoration: none;
+    color: $color-blue;
+}
+.movie-infos-1, .movie-infos-2{
+  padding: 0;
+}
+.movie-synopsis {
+    margin-top: 25px;
+    padding: 0;
+}
+.movie-synopsis > p {
+    color: $color-grey-light;
+    font-family: "montserrat";
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+.movie-casting {
+    margin: 25px 0;
+    padding: 0;
+}
+.movie-casting .cast-character {
+    float: right;
+}
+.movie-casting .cast {
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.movie-casting tr:nth-child(odd){
+  background-color: $color-table;
+}
+.movie-casting td{
+  padding: 8px;
+}
+.movie-infos.person-actor {
+    margin-top: 55px;
+}
+.cast-actor > a {
+    color: $color-blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.cast-actor a:hover, .cast-actor a:focus{
+  text-decoration: none;
+  color: $color-blue;
+}
+.movie-casting-next > a {
+    float: right;
+    margin-top: 20px;
+}
+.add-wl, .add-mkv{
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  margin-right: -21px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  width: 99%;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+}
+.add-mkv{
+  background-color: $color-add-mk;
+}
+.add-wl{
+  background-color: $color-add-wl;
+}
+.add-mkv:hover, .add-mkv:focus{
+  background-color: $color-hover-mk;
+}
+.add-wl:hover, .add-wl:focus{
+  background-color: $color-hover-wl;
+}
+.del-wl, .del-mkv {
+  background-color: $color-del-features;
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  margin-right: -21px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  width: 99%;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+}
+.del-wl:hover, .del-wl:focus, .del-mkv:hover, .del-mkv:focus{
+  background-color: $color-del-hover;
+}
+.movie-features {
+    margin-left: 4px;
+    padding: 0 5px;
+    width: 255px;
+}
+.movie-features button {
+    border: medium none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 6px 0;
+    width: 100%;
+}
+.movie-features .b-watchlist{
+  background-color: #5cb23f;
+  color: white;
+  transition: all 0.2s ease;
+}
+.movie-features .b-markview{
+  background-color: $color-add-mk;
+  color: white;
+  transition: all 0.2s ease;
+}
+.movie-features .b-watchlist:hover, .movie-features .b-watchlist:focus{
+  background-color: #418727;
+}
+.movie-features .b-markview:hover, .movie-features .b-markview:focus{
+  background-color: #356b8c;
+}
+.movie-galery{
+  display: none;
+}
+.movie-galery-container {
+    margin-top: 20px;
+}
+.galery-img {
+    float: left;
+    width: 413px;
+}
+.galery-img img {
+    width: 403px;
+    border-radius: 5px;
+    left: 0;
+    position: relative;
+}
+.movie-galery {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 5px;
+}
+.movie-galery-button{
+  display: none;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+.galery-prev{
+  cursor: pointer;
+	width: 35px;
+	height: 35px;
+	background-image: url('../img/fleche-film.png');
+	background-position: -35px 0;
+  position: absolute;
+  top: 0;
+  left: 365px;
+}
+.galery-next{
+  cursor: pointer;
+	width: 35px;
+	height: 35px;
+	background-image: url('../img/fleche-film.png');
+  background-position: 35px 0;
+  position: absolute;
+  top: 0;
+  right: 360px;
+}
+.galery-prev:focus, .galery-next:focus{
+  outline: inherit;
+}
+.movie-poster-scroll{
+  position: relative;
+}
+.movie-poster {
+  position: absolute;
+  top: 0;
+}
+.fixed {
+  position: fixed;
+  width: 16.45%;
+  top: 50px;
+}
+.movie-trailer img {
+  width: 100%;
+}
+.movie-trailer {
+  display: none;
+  position: relative;
+}
+.movie-trailer-responsive{
+  display: none;
+}
+.see-trailer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  transition: all 0.5s ease;
+}
+.see-trailer:hover, .see-trailer:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+.movie-trailer-popup {
+    position: fixed;
+    z-index: 200;
+    display: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.movie-trailer-infos {
+    background-color: black;
+    color: $color-trailer;
+    padding: 5px;
+}
+.video-right {
+    float: right;
+    margin-right: 12px;
+}
+.video-left{
+  margin-left: 12px;
+}
+.video-right > a {
+    color: $color-trailer;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+.video-right:hover a{
+  color: white;
+}
+#body-black{
+  display: none;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}

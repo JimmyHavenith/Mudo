@@ -1,0 +1,259 @@
+/* PAGE D'ACCUEIL */
+
+body{
+  background-color: white;
+  font-family: $font-base;
+  #logo{
+    float: left;
+    height: 50px;
+    h1{
+      margin-bottom: 0px;
+      margin-top: 10px;
+      width: 92px;
+    }
+  }
+}
+.header-banner{
+  overflow: hidden;
+}
+.banner-no-js{
+  display: none;
+}
+.banner{
+  overflow: hidden;
+}
+.banner-img{
+  width: 100%;
+  float: left;
+  img{
+    left: 0;
+    position: relative;
+  }
+}
+.banner-click .prev{
+	cursor: pointer;
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/arrows.png');
+	background-position: -50px 0;
+}
+.banner-click .next{
+	cursor: pointer;
+	position: absolute;
+	top: 250px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/arrows.png');
+	background-position: 50px 0;
+}
+.banner-click{
+  opacity: 0;
+}
+section.features{
+  background-color: $color-blue;
+  color: white;
+  padding-bottom: 25px;
+}
+.slogan-home{
+  font-family: $font-slogan;
+  text-align: center;
+  font-size: 2.3em;
+  color: white;
+}
+.button-quiz{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-family: $font-title;
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+}
+.quiz-link {
+    background-color: $color-red;
+    color: white;
+    border: 2px solid $color-red-dark;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 1.3em;
+    overflow: hidden;
+    padding: 8px;
+    position: relative;
+    text-transform: uppercase;
+    .quiz-link-text{
+        position: relative;
+        z-index: 200;
+    }
+}
+.quiz-link-bg {
+    background-color: $color-red-dark;
+    bottom: 150%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 150%;
+    transform: rotate(-25deg);
+    transition: all 0.3s ease 0s;
+    z-index: 100;
+}
+.quiz-link:hover .quiz-link-bg {
+    bottom: -125%;
+    left: -40%;
+    right: -40%;
+    top: -125%;
+    transition: all 0.5s ease 0s;
+}
+.start-quiz {
+    background-color: $color-blue;
+    padding-top: 35px;
+}
+.features-quiz {
+    border-bottom: 2px solid $color-section-home;
+}
+.features-todo{
+  margin-top: 50px;
+  a{
+    color: white;
+  }
+  a:hover h2, a:focus h2{
+    color: $color-red;
+  }
+}
+.features.col-md-3{
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  h2{
+    display: block;
+    font-size: 1.4em;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  p{
+    font-size: 1.1em;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-weight: lighter;
+  }
+}
+.image-todo {
+    position: relative;
+}
+.only-auth {
+    position: absolute;
+    right: 40px;
+    top: -6px;
+    width: 15px;
+}
+section.proposal{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.proposal > img {
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.proposal > .proposal-title {
+    color: $color-blue;
+    display: block;
+    font-family: $font-slogan;
+    font-size: 1.4em;
+    margin-top: 15px;
+    text-align: center;
+}
+.proposal-title span{
+  display: none;
+}
+.proposal ul{
+  margin-top: 20px;
+  padding: 0px;
+  margin-left: 5px;
+}
+.proposal li{
+  overflow: hidden;
+  padding: 5px 8px;
+  vertical-align: top;
+  width: 173px;
+  display: inline-block;
+}
+.proposal-image{
+  height: 236px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 1px 0px 2px #777;
+}
+.proposal-image img{
+  height: 100%;
+}
+.proposal-image .overlay img{
+  height: auto;
+  width: 100%;
+}
+.movies-result .proposal-image{
+  height: 248px;
+}
+.movies_actor .proposal-image, .movies_similar .proposal-image{
+  height: 295px;
+}
+.proposal-details {
+    height: 30px;
+    margin-top: 5px;
+}
+.proposal-details > a {
+    color: $color-grey-details;
+    font-size: 0.9em;
+    font-family: $font-title;
+}
+.proposal-next {
+    display: block;
+    margin-right: 7px;
+    text-align: right;
+}
+.proposal-next a{
+  text-decoration: underline;
+  color: $color-grey-details;
+  margin-right: 10px;
+}
+.proposal-next a:hover{
+  text-decoration: none;
+  color: $color-grey-dark;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    transition: all 0.1s ease;
+    height: 100%;
+    width: 100%;
+}
+.proposal-image:hover .overlay, .proposal-image a:focus ~ .overlay{
+  opacity: 1;
+}
+footer{
+  background-color: $color-blue;
+  padding: 18px;
+  p{
+    color: white;
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin: auto;
+    width: 150px;
+  }
+}

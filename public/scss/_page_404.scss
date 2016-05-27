@@ -1,0 +1,40 @@
+/* PAGE 404 */
+
+.div-page-error {
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    width: 350px;
+}
+.title-page-error {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    span{
+      color: $color-grey-details;
+      display: block;
+      font-size: 0.4em;
+      font-weight: normal;
+      margin-top: 10px;
+    }
+}
+.message-page-error {
+    color: $color-grey-details;
+    font-size: 1.2em;
+    text-align: center;
+}
+.content-page-error a {
+    background-color: $color-add-wl;
+    border-radius: 3px;
+    color: white;
+    padding: 9px 10px;
+}
+.content-page-error a:hover{
+  text-decoration: none;
+  background-color: $color-hover-wl;
+  color: white;
+}
+.content-page-error > p {
+    margin-top: 50px;
+    text-align: center;
+}

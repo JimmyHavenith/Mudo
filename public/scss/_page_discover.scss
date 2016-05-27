@@ -1,0 +1,73 @@
+/* PAGE DISCOVER */
+
+.page-discover{
+  background-color: #f5f2f2;
+  min-height: 675px;
+  padding-top: 150px;
+}
+.discover-submit{
+  display: block;
+  width: 165px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: $color-red;
+  border: medium none;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 20px;
+}
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  color: #fff;
+  display: block !important;
+}
+.btn-group.bootstrap-select {
+    padding-bottom: 40px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+}
+.discover .form {
+  font-size: 1.5em;
+}
+.page-discover .form-js{
+  display: none;
+}
+.discover-logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.discover-logo img{
+  width: 250px;
+}
+.discover-title{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+.page-discover label{
+  font-size: 0.6em;
+}
+.col-md-2.result-discover-img {
+    width: 88px;
+}
+.page-discovers-title h2 {
+    font-family: "montserrat";
+    font-size: 1.1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.movie-results-title{
+  margin-top: 12px;
+}
+.btn-danger:hover {
+    background-color: $color-red !important;
+}

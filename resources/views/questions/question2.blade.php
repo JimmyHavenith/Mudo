@@ -52,7 +52,7 @@
 					<li class="col-md-2 col-sm-3 col-xs-4 results-quiz-movies yesmk">
 						<div class="proposal-image">
 							<a title="Accéder au film {{ $value['title'] }}" href="#">
-								<img src="https://image.tmdb.org/t/p/w185/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title'] }}" title="{{ $value['title'] }}"/>
+								<img src="https://image.tmdb.org/t/p/w780/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title'] }}" title="{{ $value['title'] }}"/>
 							</a>
 							<div class="overlay">
 								<a title="{{ $value['title'] }}" href="/movies/{{ $value['id'] }}-{{ str_slug( $value['title'], '-') }}">

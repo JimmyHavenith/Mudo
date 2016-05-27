@@ -292,7 +292,6 @@ body #logo h1 {
 .banner-img img {
   left: 0;
   position: relative;
-  width: 100%;
 }
 
 .banner-click .prev {
@@ -2079,17 +2078,5 @@ footer img {
   .movies_similar {
     margin-top: 0;
     padding: 0;
-  }
-}
-
-@media screen and (min-width: 430px) and (max-width: 768px) {
-  .only-auth {
-    right: 20%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 430px) {
-  .only-auth {
-    right: 0;
   }
 }

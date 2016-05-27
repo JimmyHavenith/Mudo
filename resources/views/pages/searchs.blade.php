@@ -15,7 +15,7 @@
               <div class="proposal-image">
                 @if($value['poster_path'] == true)
                 <a title="Clique ici pour accéder à la page du film {{ $value['title'] }}" href="#">
-                  <img src="https://image.tmdb.org/t/p/w185/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title']}}" title="{{ $value['title'] }}"/>
+                  <img src="https://image.tmdb.org/t/p/w780/{{ $value['poster_path'] }}" alt="affiche du film {{ $value['title']}}" title="{{ $value['title'] }}"/>
                 </a>
                 @else
                 <img src="../img/not-available.png" alt="Affiche du film non disponible" />
@@ -35,7 +35,7 @@
               <div class="proposal-image">
                 @if($value['profile_path'] == true)
                 <a href="#" title="Clique ici pour accéder à la page de {{ $value['name'] }}">
-                  <img src="https://image.tmdb.org/t/p/w185/{{ $value['profile_path'] }}" alt="Photo de {{ $value['name']}}" title="{{ $value['name'] }}"/>
+                  <img src="https://image.tmdb.org/t/p/w780/{{ $value['profile_path'] }}" alt="Photo de {{ $value['name']}}" title="{{ $value['name'] }}"/>
                 </a>
                 @else
                 <img src="../img/not-available.png" alt="Affiche du film non disponible" />
@@ -58,7 +58,6 @@
         @endforelse
       </ul>
     </div>
-  </div>
-  <script src="../js/jquery.js" type="text/javascript"></script>
-  <script src="../js/bootstrap.min.js"></script> <!-- important -->
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js"></script> <!-- important -->
 @endsection

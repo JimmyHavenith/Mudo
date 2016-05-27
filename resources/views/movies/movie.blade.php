@@ -4,9 +4,9 @@
 @include('flash::message')
     <section class="movie-banner">
     @if( $movie['backdrop_path'] == true)
-      <div id="backdrop"  style="background-image: url('https://image.tmdb.org/t/p/w1280/{{ $movie['backdrop_path'] }}'); background-repeat: no-repeat; background-size: cover; width: 100%; height: 394px; "></div>
+      <div id="backdrop"  style="background-image: url('https://image.tmdb.org/t/p/original/{{ $movie['backdrop_path'] }}'); background-repeat: no-repeat; background-size: cover; width: 100%; height: 394px; ">
     @else
-      <div id="backdrop"  style="background-image: url('../img/not-available-bg.png'); background-repeat: no-repeat; background-size: cover; width: 100%; height: 394px; "></div>
+      <div id="backdrop"  style="background-image: url('../img/not-available-bg.png'); background-repeat: no-repeat; background-size: cover; width: 100%; height: 394px; ">
     @endif
     </section>
     <section class="movie-infos">
@@ -87,7 +87,7 @@
               <span class="item-light">Nationalité :</span>
               @if($movie['production_countries'] == true)
                 <strong>
-                {{ $movie['production_countries'][0]['name'] }}
+                {{ $movie['production_countries'][0]['name'] }}</a>
                 </strong>
               @else
                 <span class="not-available">Nous ne disposons pas de cette informations</span>
@@ -102,7 +102,7 @@
             <div class="movie-trailer">
               @foreach($images['backdrops'] as $key => $image)
                 @if($key < 1)
-                  <img src="https://image.tmdb.org/t/p/w780/{{ $image['file_path'] }}" alt="Bande annonce de {{ $movie['title'] }}" title="Bande annonce de {{ $movie['title'] }}"/>
+                  <img src="https://image.tmdb.org/t/p/w780/{{ $image['file_path'] }}" alt="Bande annonce de {{ $movie['title'] }}" title="Bande annonce de {{ $movie['title'] }}" alt="" />
                   <div class="see-trailer">
                     <a title="Afficher la bande annonce de {{ $movie['title'] }}" href="#">
                       <img src="../img/video.png" alt="Image du film pour regarder la video" />
@@ -113,7 +113,7 @@
             </div>
             @if( $trailers['youtube'] == true)
             <div class="movie-trailer-responsive" style="height: 233px;">
-              <iframe id="youtube_player-responsive" src="https://www.youtube.com/embed/{{ $trailers['youtube'][0]['source']}}"></iframe>
+              <iframe id="youtube_player-responsive" src="https://www.youtube.com/embed/{{ $trailers['youtube'][0]['source']}}" frameborder="0" allowfullscreen="true" allowscriptaccess="always"></iframe>
             </div>
             @else
             @endif
@@ -125,7 +125,7 @@
             </div>
             <div class="movie-trailer-video">
               @if( $trailers['youtube'] == true)
-                <iframe id="youtube_player" width="800" height="450" src="https://www.youtube.com/embed/{{ $trailers['youtube'][0]['source']}}"></iframe>
+                <iframe id="youtube_player" width="800" height="450" src="https://www.youtube.com/embed/{{ $trailers['youtube'][0]['source']}}" frameborder="0" allowfullscreen="true" allowscriptaccess="always"></iframe>
               @else
               @endif
             </div>
@@ -162,7 +162,7 @@
                 @foreach($images['backdrops'] as $key => $image)
                   <div class="galery-img">
                     <a href="https://image.tmdb.org/t/p/w780/{{ $image['file_path'] }}" data-lightbox="slider-film" title="Afficher l'image du film {{ $movie['title'] }}">
-                      <img src="https://image.tmdb.org/t/p/w300/{{ $image['file_path'] }}" alt="image du film {{ $movie['title'] }}" title="{{ $movie['title'] }}">
+                      <img src="https://image.tmdb.org/t/p/w780/{{ $image['file_path'] }}" alt="image du film {{ $movie['title'] }}" title="{{ $movie['title'] }}">
                     </a>
                   </div>
                 @endforeach
@@ -205,6 +205,7 @@
       </div>
     </section>
     <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js"></script> <!-- important -->
     <script src="//code.jquery.com/jquery.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script>

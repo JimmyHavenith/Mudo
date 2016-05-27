@@ -41,7 +41,7 @@ class MovieController extends Controller
       }
 
       $trailers = $client->getMoviesApi()->getTrailers($id);
-      $favoris_exist = Favorite::where('movie_id', '=', $id)->whereUserId(\Auth::id())->first();
+      $fav_exist = Favorite::where('movie_id', '=', $id)->whereUserId(\Auth::id())->first();
       $view_exist = View::where('movie_id', '=', $id)->whereUserId(\Auth::id())->first();
       return view('movies/movie', [
           'movie' => $movie,
@@ -49,7 +49,7 @@ class MovieController extends Controller
           'images' => $images,
           'response' => $response,
           'trailers' => $trailers,
-          'favoris_exist' => $favoris_exist,
+          'fav_exist' => $fav_exist,
           'view_exist' => $view_exist,
           'keywords' => $keywords,
           'similar' => $similar,

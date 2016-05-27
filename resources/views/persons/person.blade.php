@@ -9,7 +9,7 @@
               <div class="movie-poster-img">
                 <div class="poster-img">
                   @if($person['profile_path'] == true )
-                  <a href="https://image.tmdb.org/t/p/original/{{ $person['profile_path'] }}" data-lightbox="poster-actor" title="afficher la photo de {{ $person['name'] }}">
+                  <a href="https://image.tmdb.org/t/p/original/{{ $person['profile_path'] }}" data-lightbox="poster-actor" title="afficher la photo de {{ $person['name'] }}"></a>
                     <img class="profil_actor" src="https://image.tmdb.org/t/p/original/{{ $person['profile_path'] }}" alt="photo de profil de l'acteur {{ $person['name'] }}" title="{{ $person['name'] }}">
                   </a>
                   @else
@@ -106,7 +106,6 @@
               <a title="afficher davantage de films" href="#">Voir tous ses films</a>
             </div>
           </div>
-        </div>
       </div>
     </section>
     <script src="../js/jquery.js" type="text/javascript"></script>

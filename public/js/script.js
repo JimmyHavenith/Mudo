@@ -10,6 +10,7 @@
       $('.banner-img').css('width', 'auto');
       $('.rating').css('display', "block");
       $('.movie-galery').css('display', 'block');
+      $('.movie-trailer').css('display', 'block');
       $('.movie-galery-button').css('display', 'block');
       $('.page-discover .form-js').css('display', 'block');
 
@@ -276,10 +277,7 @@
       $('.rating-background-yellow').css('width', vote_pourcent);
 
 
-      // MENU HAMBURGER
       $('#body-black').css('margin-top', "50px");
-      var heightWithoutMenu = windowHeight - 50;
-      $('#hamburger-menu').css('height', heightWithoutMenu);
 
       $('.navbar-toggle').click(function(e){
         if(parseInt($('#hamburger-menu').css('right')) == 0){

@@ -39,10 +39,10 @@ class FavoritesController extends Controller
        $favorite = new App\Favorite($request->all());
        $favorite->user_id = \Auth::id();
        $favorite->movie_id = $request->input('movie_id');
-       $exist_favoris = Favorite::where('movie_id', '=' ,$favorite->movie_id)->whereUserId(\Auth::id())->first();
+       $existing_fav = Favorite::where('movie_id', '=' ,$favorite->movie_id)->whereUserId(\Auth::id())->first();
 
-       if($exist_favoris) {
-         $exist_favoris->delete();
+       if($existing_fav) {
+         $existing_fav->delete();
          Flash::overlay('Le film a bien été supprimé de ta watchlist !', 'Film supprimé');
          return redirect()->back();
        }else{

@@ -32,7 +32,7 @@
 		</section>
 		<section class="movies-container container">
 			<div class="loading">
-				<p>Répondez à cette première question pour afficher quelques propositions<br><span>...</span></p>
+				<p>Répondez à cette première question pour afficher quelques propositions</br><span>...</span></p>
 			</div>
 		</section>
 		<script src="../js/jquery.js" type="text/javascript"></script>

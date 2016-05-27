@@ -1,4 +1,4 @@
-@if(!$fav_exist)
+@if(!$favoris_exist)
   {!! Form::open(
       array(
           'action' => 'FavoritesController@store',

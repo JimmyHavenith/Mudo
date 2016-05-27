@@ -107,6 +107,7 @@
               <a title="Clique ici pour afficher davantage de films" href="#">Voir tous ses films</a>
             </div>
           </div>
+        </div>
       </div>
     </section>
     <script src="../js/jquery.js" type="text/javascript"></script>

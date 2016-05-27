@@ -15,7 +15,7 @@
           <li class="col-md-2 col-sm-3 col-xs-4">
             <div class="proposal-image">
               <a title="Accéder au film {{ $view->movie_title}}" href="#">
-                <img src="https://image.tmdb.org/t/p/w780/{{ $view->movie_poster }}" alt="affiche du film {{ $view->movie_title}}" title="Accéder au film{{ $view->movie_title}}"/>
+                <img src="https://image.tmdb.org/t/p/w185/{{ $view->movie_poster }}" alt="affiche du film {{ $view->movie_title}}" title="Accéder au film{{ $view->movie_title}}"/>
               </a>
               <div class="overlay">
                 <a href="/movies/{{ $view->movie_id }}-{{ str_slug( $view->movie_title, '-') }}" title="Accéder au film {{ $view->movie_title}}">

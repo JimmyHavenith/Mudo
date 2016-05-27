@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Validator;
+use Flash;
+use AuthenticatesUsers;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
@@ -23,10 +26,12 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
+    protected $auth;
+
     protected $redirectPath = '/';
     protected $loginPath = '/auth/login';
     protected $logoutPath = '/auth/login';
-    protected $redirectAfterLogout = 'auth/login';
+    protected $redirectAfterLogout = '/';
 
     /**
      * Create a new authentication controller instance.
@@ -68,4 +73,19 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+
+    public function authenticated( Request $request, $user )
+    {
+        Flash::overlay('Parfait, tu es maintenant connecté !', 'Connexion réussie');
+        return redirect()->intended($this->redirectPath());
+    }
+
+    public function getLogout()
+    {
+        auth()->logout();
+
+        Flash::overlay('Tu es maintenant déconnecté !', 'Déconnexion réussie');
+        return redirect()->intended($this->redirectPath());
+    }
+
 }
